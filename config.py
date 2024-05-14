@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "26026658"))
+API_HASH = getenv("API_HASH", "7573b1e004f6da153dba07bf5c1a2a6a")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6999969950:AAGIwlgqnDowSBew4yBuvbpDOeIEuaxPLBg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -19,11 +19,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001443337704"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002078575375"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078575375"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID", "6584789596"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,8 +40,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TG_FRIENDSS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Flex_Bots_News")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Flex_Support_Chat")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
@@ -86,7 +86,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGNIqIAnl46-YSLNlbGeZbXGnI7KEuIqfbbLQalUHcwY3gkJYSNT5il_FcWOnUYRgbQZd8_5EznomL_8ElxKTmgSpVoqFQISKq4oJupgz8L-VhAx0NYJLN9y2vfVqK0_VWfTcBXaS_sXKj_UDulH6jnHpjTiqMAOaY8eQBWovZVMcV7TVBr0ZMhJHHmjOr_0-nrCv7As7DRcEdcPBHhpZIRDT6r0rbLDsPskOoTOZwMfgD5EOpES1I_D1GBxoslZo4PelbrOo4g0oEq7vHDmIoggpsRC9JTQUHyOAnMiVCtDlc6C5xdwDMMHj7XxaofADJCa9r5AV0NnA7PGc51ey5SvnmqIAAAAAF7SiUgAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -114,21 +114,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "START_IMG_URL", "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "PING_IMG_URL", "https://graph.org/file/af76565ecb93f1763a9fd.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+STATS_IMG_URL = "https://graph.org/file/527daa229a210ec5b901f.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+STREAM_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/5abc92f2c2367baf29fa3.jpg"
 
 
 def time_to_seconds(time):
