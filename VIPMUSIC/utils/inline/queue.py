@@ -80,8 +80,8 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/vip_creators",
+                text="ᴍᴏʀᴇ",
+                url="https://t.me/flex_bots_news",
             ),
         ],
     ]
@@ -115,8 +115,8 @@ def queuemarkup(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/vip_creators",
+                text="ᴍᴏʀᴇ",
+                url="https://t.me/flex_bots_news",
             ),
         ],
     ]
