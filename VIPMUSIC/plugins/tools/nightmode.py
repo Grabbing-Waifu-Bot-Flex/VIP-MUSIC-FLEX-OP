@@ -38,8 +38,8 @@ OPEN_CHAT = ChatPermissions(
 buttons = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("๏ ᴇɴᴀʙʟᴇ ๏", callback_data="add_night"),
-            InlineKeyboardButton("๏ ᴅɪsᴀʙʟᴇ ๏", callback_data="rm_night"),
+            InlineKeyboardButton("ᴇɴᴀʙʟᴇ", callback_data="add_night"),
+            InlineKeyboardButton("ᴅɪsᴀʙʟᴇ", callback_data="rm_night"),
         ]
     ]
 )
@@ -47,7 +47,7 @@ add_buttons = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="๏ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ๏",
+                text="ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ]
@@ -79,22 +79,22 @@ async def nightcb(_, query: CallbackQuery):
         if data == "add_night":
             if check_night:
                 await query.message.edit_caption(
-                    "**๏ ɴɪɢʜᴛᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ.**"
+                    "**ɴɪɢʜᴛᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ.**"
                 )
             elif not check_night:
                 await nightmode_on(chat_id)
                 await query.message.edit_caption(
-                    "**๏ ᴀᴅᴅᴇᴅ ᴄʜᴀᴛ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ . ᴛʜɪs ɢʀᴏᴜᴘ ᴡɪʟʟ ʙᴇ ᴄʟᴏsᴇᴅ ᴏɴ 𝟷𝟸ᴀᴍ [IST] ᴀɴᴅ ᴡɪʟʟ ᴏᴘᴇɴᴇᴅ ᴏɴ 𝟶𝟼ᴀᴍ [IST] .**"
+                    "**ᴀᴅᴅᴇᴅ ᴄʜᴀᴛ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ . ᴛʜɪs ɢʀᴏᴜᴘ ᴡɪʟʟ ʙᴇ ᴄʟᴏsᴇᴅ ᴏɴ 𝟷𝟸ᴀᴍ [IST] ᴀɴᴅ ᴡɪʟʟ ᴏᴘᴇɴᴇᴅ ᴏɴ 𝟶𝟼ᴀᴍ [IST] .**"
                 )
         if data == "rm_night":
             if check_night:
                 await nightmode_off(chat_id)
                 await query.message.edit_caption(
-                    "**๏ ɴɪɢʜᴛᴍᴏᴅᴇ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ !**"
+                    "**ɴɪɢʜᴛᴍᴏᴅᴇ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ !**"
                 )
             elif not check_night:
                 await query.message.edit_caption(
-                    "**๏  ɴɪɢʜᴛᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ  ɪɴ ᴛʜɪs ᴄʜᴀᴛ.**"
+                    "**ɴɪɢʜᴛᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ  ɪɴ ᴛʜɪs ᴄʜᴀᴛ.**"
                 )
 
 
