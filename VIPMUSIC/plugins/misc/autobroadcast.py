@@ -8,26 +8,27 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
 
-START_IMG_URLS = "https://graph.org/file/760169f7f8dd536c50793.jpg"
+START_IMG_URLS = "https://telegra.ph/file/c49865e812aeee0a02d50.jpg"
 
-MESSAGES = f"""**ㅤㅤㅤ⚠️⚠️⚠️⚠️⚠️📡
+MESSAGES = f"""**𝐇𝐞𝐥𝐥𝐨 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐭𝐫𝐚𝐝𝐞 𝐚𝐧𝐲 𝐰𝐚𝐢𝐟𝐮 𝐨𝐫 𝐡𝐚𝐬𝐛𝐚𝐧𝐝😊 
+Rules :
+1-ʳᵉˢᵖᵉᶜᵗ ᵉᵃᶜʰ ᵒᵗʰᵉʳ'ˢ ᵒᵖⁱⁿⁱᵒⁿˢ ᵃⁿᵈ ᵗʳᵃᵈⁱⁿᵍ 
+2-ⁿᵒ ˢᵖᵃᵐᵐⁱⁿᵍ ᵒʳ ᵖʳᵒᵐᵒᵗⁱⁿᵍ 👍
+3-ᵉⁿʲᵒʸ ᵗʰᵉ ʲᵒᵘʳⁿᵉʸ ᵒᶠ ᵗʳᵃᵈⁱⁿᵍ 
+ʰᵃᵖᵖʸ ᵗʳᵃᵈⁱⁿᵍ! 💮
 
-❤️सबसे ज्यादा पैसा देने वाला Platform पूरी दुनिया को हिला के रख दिया MISS मत करना⭐️
+Link:- https://t.me/The_Trader_Zone
 
-✅Game  को INVITE करो और 10,000₹ से 50,000₹ रोज कमाओ
-
-🫂Link:- https://91club.game/#/register?invitationCode=65847105926 ✅
-
-Agent: @Jamesadmin91club💙**"""
+Admin: @Flexdub_official**"""
 
 
 BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "๏ Click & Get ₹100 ๏",
-                url=f"https://91club.game/#/register?invitationCode=65847105926",
-            )
+                "Join us",
+                url=f"https://t.me/The_Trader_Zone",
+ https://t.me/The_Trader_Zone           )
         ]
     ]
 )
