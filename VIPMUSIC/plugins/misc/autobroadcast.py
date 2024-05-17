@@ -27,7 +27,7 @@ BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 "Join us",
                 url=f"https://t.me/The_Trader_Zone",
- https://t.me/The_Trader_Zone           )
+           )
         ]
     ]
 )
