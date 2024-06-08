@@ -11,25 +11,25 @@ API_ID = int(getenv("API_ID", "14691251"))
 API_HASH = getenv("API_HASH", "ce7153b02b496253947872656b3ee0d3")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6999969950:AAGIwlgqnDowSBew4yBuvbpDOeIEuaxPLBg")
+BOT_TOKEN = getenv("BOT_TOKEN", "7144502616:AAFnY7CTnEi5466S738lAJGsgHxWMDPXU-Y")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mukundsrajput:lFRam73ZwE2D4snZ@cluster0.bmxejth.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Epic2:w85NP8dEHmQxA5s7@cluster0.tttvsf9.mongodb.net/?retryWrites=true&w=majority")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999999999))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002078575375"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078575375"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6584789596"))
+OWNER_ID = int(getenv("OWNER_ID", "5702598840"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("zxc-music-opx")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-f768e60f-b57f-4587-81f1-110a599578fa")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -86,7 +86,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "None")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", "None")
 STRING3 = getenv("STRING_SESSION3", "None")
 STRING4 = getenv("STRING_SESSION4", "None")
